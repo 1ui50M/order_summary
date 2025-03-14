@@ -1,9 +1,21 @@
 body{
     height: 100vh;
-    width: 80%;
+    width: 100%;
     background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.fondo{
-    width: 1680px;
+.recuadro{
     height: 500px;
+    width: 400px;
+    background-color: white;
+    border-radius: 12px;
+}
+.musica{
+    height: 200px;
+    width: 400px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
 }
